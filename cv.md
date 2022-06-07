@@ -17,6 +17,7 @@ Goal: learn JavaScript / Front-end course, put it into practice, become a mentor
 Leading programmer in a government organization
 
 # 7. Education (including completed courses and trainings)
-BNTU
+* BNTU
+* State Educational Establishment "Institute for Advanced Studies and Retraining of Managers and Industry Specialists "Industry Personnel"
 # 8. English language (level of English, if there was a language practice, tell us about it)
 A2
