@@ -12,6 +12,10 @@ Goal: learn JavaScript / Front-end course, put it into practice, become a mentor
 * MS SQL Server
 
 # 5. Code examples
+```
+$a=1;
+$b=8;
+```
 
 # 6. Experience.
 Leading programmer in a government organization
