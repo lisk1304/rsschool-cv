@@ -15,6 +15,7 @@ Goal: learn JavaScript / Front-end course, put it into practice, become a mentor
 ```
 $a=1;
 $b=8;
+$c=0;
 ```
 
 # 6. Experience.
