@@ -110,17 +110,14 @@ html {
 
 .code {
       position: relative;
+      background-color: #cfecd3;
+      width: 100%;
       padding: 0px 20px;  
 }
 
 .code span {
       font: small-caps 110% Arial, sans-serif;
       color:#da963d;
-}
-
-.code div {      
-      background-color: #cfecd3;
-      width: 100%;
 }
 
 .footer-inner {
