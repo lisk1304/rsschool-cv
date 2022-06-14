@@ -31,12 +31,14 @@
     </header>
 
     <main class="main">
+        <div class="container">
         <div class="main-container">
             <section class="section-profile" id="profile">
-                <img class="user-img" src="./assets/img/img_2022a.png" alt="avatar">
+                <div class="user-img">
+                <img src="./assets/img/img_2022a.png" alt="avatar">
+                </div>
                 <div>               
-                    <!-- Name and surname -->
-                    <h1 class="section-title">Ludmila K</h1>
+                    <h1 class="section-title">Lyudmila K</h1>
                     <p class="section-item"> Junior Software Engineer in JavaScript/Front-end</p>
                 </div>
             </section>
@@ -77,14 +79,14 @@
                                 Check</a></span></p>
                 </div>
             </section>
-            <section class="section" id="Educational">
+            <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                 <ul class="section-item">
                     <li>Diplomas
                         <ul>
                             <li>Belarusian National Technical University</li>
-                            <li>State Educational Establishment “Institute for Advanced Studies and Retraining of
-                                Managers and Industry Specialists “Industry Personnel”</li>
+                            <li>State Educational Establishment &laquo;Institute for Advanced Studies and Retraining of
+                                Managers and Industry Specialists &laquo;Industry Personnel&raquo;</li>
                         </ul>
                     </li>
                     <li>Сourses
@@ -101,18 +103,30 @@
                 <p class="section-item">A2</p>
             </section>
         </div>
+        </div>
     </main>
 
     <footer class="footer">
         <!-- ссылка на гитхаб, год создания ,логотип курса, ссылка на курс-->
         <div class="container">
-            <a href="https://github.com/lisk1304/rsschool-cv">My github</a>
-            <span>2022</span>
-            <a href="https://rs.school/js/">
-                <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="RS School">
-            </a>
+            <div class="footer-inner">
+                <div class="footer-copyright">
+                    <p>&copy; 2022</p>
+                </div>
+                <ul class="footer-links">
+                    <li class="section-item">
+                        <a href="https://github.com/lisk1304/rsschool-cv" target="_blank">My github</a>
+                    </li>
+                    <li class="section-item">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img class="logo" src="https://rs.school/images/rs_school_js.svg" width="80" height="29"
+                                viewbox="0 0 80 29" fill="none" alt="RS School">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-</body>
+    </body>
 
 </html>

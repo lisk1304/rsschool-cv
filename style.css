@@ -9,8 +9,8 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    background-color: #067456;
-    color:#041a12;
+    background-color: #c2bf9d;
+    color: #041a12;
     margin: 0;
     padding: 0;
     display: flex; /*прижать footer к низу страницы - 3 правила ниже*/
@@ -23,13 +23,15 @@ html {
 }
 
 .container {
-  max-width: 1440px; 
-  margin: 0 auto;  
+  max-width: 1000px; 
+  margin: 0 auto; 
+  overflow: hidden;
+  background-color: #418c56;
 }
 
 .nav-list {
       display: flex; /*расположить в строку*/
-      justify-content: flex-end; /*сдвинуть вправо*/
+      justify-content: center;
       align-items: center; /*выровнять по центру по высоте*/
       list-style: none; /*убрать стандартные маркеры*/     
 }
@@ -53,7 +55,7 @@ html {
 }
 
 .section {
-      width: 100%; /*каждая секция - половина ширины контейнера*/
+      width: 100%; /*каждая секция - 100% ширины контейнера*/
       padding: 0 10px 0;
 }
 
@@ -72,11 +74,9 @@ html {
       color: #cfecd3;
 }
 
-/*при уменьшении ширины экрана до 768px, секция будет занимать всю ширину*/
-@media (max-width: 768px){
-      .section {
-            width: 100%;
-      }
+#profile h1{
+      font-size: 35px;
+      font-family: Verdana, sans-serif
 }
 
 .section-item {
@@ -86,7 +86,7 @@ html {
 
 /*дополнительная интерактивность*/
 .section-item a {
-      color: #829985;
+      color: #b8d1bc;
       text-decoration: none;
       transition: color 0.5s;
 }
@@ -98,9 +98,9 @@ html {
 }
 
 .user-img {      
-      border: none;
-      justify-content: right;
-      padding: 0 40px;
+      border: none;   
+      padding: 0 100px;
+      justify-content:right;
 }
 
 .logo {
@@ -120,4 +120,22 @@ html {
 
 .code div {      
       background-color: #cfecd3;
+      width: 100%;
+}
+
+.footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 0 20px;
+}
+
+.footer-copyright {
+      align-items: flex-start;
+}
+
+.footer-links {
+      list-style: none; /*убрать стандартные маркеры*/ 
+      display: flex; /*расположить в строку*/     
+      align-items: flex-end;
 }
