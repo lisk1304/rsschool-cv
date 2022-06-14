@@ -1,0 +1,138 @@
+* {
+      box-sizing: border-box;
+      /*border: 1px solid red;*/
+}
+
+body { 
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #c2bf9d;
+    color: #041a12;
+    margin: 0;
+    padding: 0;
+    display: flex; /*прижать footer к низу страницы - 3 правила ниже*/
+    flex-direction: column; /*выравнивание по вертикали-главная ось - вертикаль*/
+    justify-content: space-between; /*все элементы на макс расст друг от друга,крайние к границам родителя*/
+}
+
+html { 
+     scroll-behavior: smooth; /*плавная прокрутка*/
+}
+
+.container {
+  max-width: 1000px; 
+  margin: 0 auto; 
+  overflow: hidden;
+  background-color: #418c56;
+}
+
+.nav-list {
+      display: flex; /*расположить в строку*/
+      justify-content: center;
+      align-items: center; /*выровнять по центру по высоте*/
+      list-style: none; /*убрать стандартные маркеры*/     
+}
+
+.nav-link {
+      padding: 0 20px; /*позволит увеличить площадь клика*/
+      line-height: 25px;
+      text-decoration: none; /*убрать подчеркивание*/
+      color: #f1f7f5;
+      font-weight: 300; /*насыщенность*/
+      font-size: 80%;
+      background-color: #044127 ;
+      transition: 0.3s; /*для плавного изменения свойств*/
+}
+
+/*расположить текст в две колонки*/
+.main-container {
+      display: flex; /*разместить по горизонтали*/
+      flex-wrap: wrap; /*секции, кот. не помещаются в ширину, переносить на новую строку*/
+
+}
+
+.section {
+      width: 100%; /*каждая секция - 100% ширины контейнера*/
+      padding: 0 10px 0;
+}
+
+.section-profile {
+      display: flex;
+      width: 100%;
+      justify-content: right;
+      padding: 10px 20px 10px;
+}
+
+.section-title {
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #cfecd3;
+}
+
+#profile h1{
+      font-size: 35px;
+      font-family: Verdana, sans-serif
+}
+
+.section-item {
+      position: relative;
+      padding: 0 20px;
+}
+
+/*дополнительная интерактивность*/
+.section-item a {
+      color: #b8d1bc;
+      text-decoration: none;
+      transition: color 0.5s;
+}
+
+/*свойства элемента при наведении*/
+.section-item a:hover {
+      color: #640454;
+      text-decoration: underline;
+}
+
+.user-img {      
+      border: none;   
+      padding: 0 100px;
+      justify-content:right;
+}
+
+.logo {
+      width: 135px;
+      height: 50px;
+}
+
+.code {
+      position: relative;
+      background-color: #cfecd3;
+      width: 100%;
+      padding: 0px 20px;  
+}
+
+.code span {
+      font: small-caps 110% Arial, sans-serif;
+      color:#da963d;
+}
+
+.footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 0 20px;
+}
+
+.footer-copyright {
+      align-items: flex-start;
+}
+
+.footer-links {
+      list-style: none; /*убрать стандартные маркеры*/ 
+      display: flex; /*расположить в строку*/     
+      align-items: flex-end;
+}
